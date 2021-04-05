@@ -25,3 +25,8 @@ Read classproperty.py for more examples and details
 ## TODO
 * There are some unexpected results when the derived class has a static member 
   with the same name as its base class's static member
+
+## Note
+
+This is deprecated since Python 3.9 as `@classmethod` can now wrap other descriptors such as `@property`.
+See the [documentation](https://docs.python.org/3/library/functions.html).
